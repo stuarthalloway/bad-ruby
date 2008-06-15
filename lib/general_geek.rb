@@ -1,3 +1,5 @@
+# generalized "type safety"
+# proof of concept, not a recommendation!
 require 'prime'
 class Module
   def typed_accessor(type, sym)
